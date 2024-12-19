@@ -1,0 +1,10 @@
+name = "lean_graph"
+version = "0.1.0"
+defaultTargets = ["lean_graph"]
+
+[[lean_lib]]
+name = "LeanGraph"
+
+[[lean_exe]]
+name = "lean_graph"
+root = "Main"
